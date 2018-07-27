@@ -1,0 +1,52 @@
+body{
+	
+	color: #FFFFFF;
+
+}
+
+#personal{
+	width: 20%;
+	height: 20%;
+}
+
+section{
+	text-align: justify;
+}
+
+.agranda{
+	font-size: 150%;
+}
+
+#irpersona12,#irpersona3,#irpersona4,#irpersona5{
+	font-family: 'Archivo Black', sans-serif;
+}
+
+
+.fondodefault{
+	background-image: url("../img/p345.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+      background-blend-mode: darken;
+
+}
+.fondop3{
+	background-image: url("../img/p3.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.fondop4{
+	background-image: url("../img/p4.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.fondop5{
+	background-image: url("../img/p5.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
