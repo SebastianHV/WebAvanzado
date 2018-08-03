@@ -21,15 +21,38 @@ section{
 	font-family: 'Archivo Black', sans-serif;
 }
 
-
-.fondodefault{
-	background-image: url("../img/p345.jpg");
+body {
+  /*font-family: 'Coming Soon', cursive;*/
+  	transition: background 1s ease;
+	background-image: url("../img/personawp.png");
 	background-size: 100%;
 	background-repeat: no-repeat;
     background-attachment: fixed;
-      background-blend-mode: darken;
+}
+
+.wrapper {
+  transition: background .2s ease;
+}
+
+
+.fondodefault{
+	background-image: url("../img/personawp.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    transition: background 1s linear;
+
 
 }
+
+.fondop12{
+	background-image: url("../img/p12.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 .fondop3{
 	background-image: url("../img/p3.jpg");
 	background-size: 100%;
@@ -50,3 +73,5 @@ section{
 	background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+
