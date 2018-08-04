@@ -442,6 +442,7 @@ $(document).ready(function(){
 
     });
 
+   
 	/*$("persona3")
 	.mouseenter(function(){
 		$("body").removeClass("fondodefault");
@@ -461,3 +462,11 @@ inView('.section').on('enter', function(el){
   var color = $(el).attr('data-background-color');
   $target.css('background-color', color );
 });*/
+
+ $('img').load(function() {
+    $(this).data('height', this.height);
+}).bind('mouseenter mouseleave', function(e) {
+    $(this).stop().animate({
+        height: $(this).data('height') * (e.type === 'mouseenter' ? 1.5 : 1)
+    });
+});
