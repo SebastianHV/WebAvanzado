@@ -425,6 +425,23 @@ $(document).ready(function(){
 		$("#mobile-demo").removeClass("#1565c0 blue darken-3");
 	});
 
+	$( "#introhs" ).hide();
+	$("#bintro2").hide();
+
+	$("#bintro").click(function(){
+        $("#introhs").toggle();
+        $("#bintro2").toggle();
+        $("#bintro").toggle();
+
+    });
+
+    $("#bintro2").click(function(){
+        $("#introhs").toggle();
+        $("#bintro2").toggle();
+        $("#bintro").toggle();
+
+    });
+
 	/*$("persona3")
 	.mouseenter(function(){
 		$("body").removeClass("fondodefault");
